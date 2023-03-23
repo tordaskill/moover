@@ -1,0 +1,55 @@
+<!-- Carousel wrapper -->
+<div id="carouselExampleControls" class="carous carousel slide carousel-fade" data-ride="carousel" [@startFade]>
+  
+   <!-- Indicators/dots -->
+   <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></button>
+  </div>
+  <!-- Inner -->
+  <div class="carousel-inner " >
+    <!-- Single item  width="1308" height="577" -->
+    <div class="carousel-item active" >
+      <img src="https://www.garfo.cz/fotky2258/fotos/_vyr_593_10.png" class="d-block w-100"  alt="Sunset Over the City"/>
+      <div class="carousel-text ">
+        <h1>{{text}}</h1>
+        <p>{{text1}}</p>
+        <p>{{text2}}</p>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img src="https://www.techbox.sk/wp-content/uploads/2019/03/Husqvarna-Automower-435X-AWD-10.jpg" class="d-block w-100" alt="Canyon at Nigh"/>
+      <div class="carousel-text">
+        <h1>{{text}}</h1>
+        <p>{{text1}}</p>
+        <p>{{text2}}</p>
+      </div>
+    </div>
+
+    <!-- Single item <div class="carousel-caption d-none d-md-block">-->
+    <div class="carousel-item" >
+      <img src="https://www.techbox.sk/wp-content/uploads/2019/03/Husqvarna-Automower-435X-AWD-6.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+      <div class="carousel-text">
+        <h1>{{text}}</h1>
+        <p>{{text1}}</p>
+        <p>{{text2}}</p>
+      </div>  
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" id="myButton" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
+

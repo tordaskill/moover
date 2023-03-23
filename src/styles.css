@@ -1,1 +1,110 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import '~bootstrap/dist/css/bootstrap.css';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+  .background {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  }
+
+body {padding: 20px;
+   
+} 
+html, body { height: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  }
+
+
+
+
+
+nav {
+  background-color: rgb(136, 120, 120);
+ 
+    background-image: linear-gradient(to right, rgb(136, 120, 120), rgb(170, 120, 120));
+    padding-top: 15px;
+    margin-top: -20px;
+    margin-left: -18px;
+    margin-right: -18px;
+    position: relative;
+    z-index: 9999; 
+
+}
+
+
+
+.input-txt {
+
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+
+.aligh-right{
+
+  z-index:100;
+  margin: 0px 10px;
+  padding-left: 10px;
+  margin-left:auto;
+}
+
+
+
+
+
+
+
+
+
+
+.button_container {
+  cursor:pointer;
+  height:50px;
+  margin-top:-6px;
+
+  position:relative;
+  transition:opacity .25s ease;
+  width:50px;
+  z-index:100;
+
+ }
+ .button_container span {
+  
+  background-image: url("src/vectors/menu button.svg");
+ 
+  background-position:90%;
+  background-repeat:no-repeat;
+  background-size:100px 10px;
+  border: 10px;
+  cursor:pointer;
+  float:right;
+  height:2px;
+  left:0;
+  margin:20px;
+  position:absolute;
+  top:0;
+  transition:all .3s ease;
+  width:30px
+  
+ }
+ .button_container span:nth-of-type(2) {
+  left:3px;
+  top:5px
+ }
+ .button_container span:nth-of-type(3) {
+  left:-5px;
+  top:10px
+ }
+ .button_container:hover span:first-of-type {
+  left:14px
+ }
+ .button_container:hover span:nth-of-type(2) {
+  left:7px
+ }
+ .button_container:hover span:nth-of-type(3) {
+  left:0
+ }

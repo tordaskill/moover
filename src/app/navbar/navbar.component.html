@@ -1,0 +1,38 @@
+
+<nav class="nav" [@startFade]>
+  
+  <div class="button_container" id="toggle" data-bs-toggle="offcanvas" href="#offcanvasExample">
+    <span class="top"></span>
+    <span class="middle"></span>
+    <span class="bottom"></span>
+  </div>
+
+  <div class="aligh-right">
+
+    <div type="button" *ngIf="loginProperty" class="btn btn-outline-dark aligh-right" [@startFade]>Log in</div>
+<label for="Name" *ngIf="loginProperty" class="sr-only aligh-right" [@startFade]>Jmeno</label>
+<input type="Name" *ngIf="loginProperty" class="aligh-right input-txt" id="inputName"  name="name" [@startFade]>
+<label for="Password" *ngIf="loginProperty" class="aligh-right sr-only " [@startFade]>Heslo</label>
+<input type="Password" *ngIf="loginProperty" class="aligh-right input-txt" id="inputPassword" name="password" [@startFade]>
+
+
+  <div type="button" (click)="setLoginProperty()" class="btn btn-outline-dark aligh-right ">Přihlášení</div>
+  <div type="button" routerLink="registration" class="btn btn-outline-dark aligh-right">Registrace</div>
+</div>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><span class="visually-hidden">Close</span></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <div>
+      Text 
+    </div>
+
+ 
+  </div>
+</div>
+</nav>
+

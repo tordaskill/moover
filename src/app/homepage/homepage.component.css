@@ -1,0 +1,40 @@
+.carousel {
+    position: relative;
+  }
+  
+  .carousel-item {
+    position: relative;
+  }
+  
+  .carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px;
+    color: #353232;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-text p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .carous{
+  
+    margin-left: -18px;
+    margin-right: -18px;
+    position: relative;
+  
+  }
